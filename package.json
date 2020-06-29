@@ -1,0 +1,19 @@
+{
+  "name": "real-estate-api",
+  "version": "0.0.1",
+  "description": "A rest API for real-estate aggregator",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Anna Vessereau <anna.vessereau@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@vaniina/real-estate-aggregator": "github:Vaniina/real-estate-aggregator",
+    "express": "^4.17.1"
+  }
+}
